@@ -1,0 +1,44 @@
+@import url("./../../index.css");
+.container{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: var(--section-overlay);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input{
+ border: 0.8px solid white;
+ border-radius: 0.4rem;
+ color: white;
+ padding: 0.5rem;
+ font-size: 20px;
+ font-weight: 200;
+ background-color: transparent;
+ 
+}
+.input:focus{
+  outline: none;
+}
+.btn{
+  padding: 10px 50px;
+  border: none;
+  border-radius: 00.4rem;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: white;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: lightgray;
+}
+@media screen and (max-width:1024px) {
+  .container{
+    gap: 5px;
+  }
+  
+}

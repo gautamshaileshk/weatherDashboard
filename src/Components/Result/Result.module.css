@@ -1,0 +1,26 @@
+.container{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  color: white;
+  background-color: var(--section-overlay);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon>h3{
+  font-size: 15px;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+.temperature>h1{
+  font-size: 60px;
+  
+}
